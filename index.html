@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header & navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="mx-auto">
+                        <form class="d-flex">
+                            <input class="form-control me-2 rounded-pill ps-3 pe-5" id="search-input" type="text"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn" id="search-button" type="submit"><i class="bi bi-search"></i></button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- carousel slider -->
+        <section>
+            <div class="container py-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class=" carousel-inner p-5 rounded-3" id="carousel-slider">
+                        <div class="carousel-item active text-center text-sm-start">
+                            <div class="row d-flex align-items-center justify-content-between g-3">
+                                <div class="col-lg-7 col-md-6">
+                                    <h1 class="slider-title">Cool Dude Headphone</h1>
+                                    <p>This is the best headphone in the world for people who just want to waste time in
+                                        front of funky world.</p>
+                                    <h1 class="price">$420</h1>
+                                    <button class="buy-now-button">Buy Now <i class="bi bi-arrow-right"></i></button>
+                                </div>
+                                <div class="col-lg-5 col-md-6">
+                                    <img src="./images/banner-images/headphone.png"
+                                        class="d-block w-75 w-md-25 w-sm-100 m-auto" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item text-center text-sm-start ">
+                            <div class="row d-flex align-items-center justify-content-between g-3">
+                                <div class="col-lg-7 col-md-6">
+                                    <h1 class="slider-title">Mega LCD TV For Sports</h1>
+                                    <p>This is the best tv in the world for people who just want to waste time in front
+                                        of tv.</p>
+                                    <h1 class="price">$1200</h1>
+                                    <button class="buy-now-button">Buy Now <i class="bi bi-arrow-right"></i></button>
+                                </div>
+                                <div class="col-lg-5 col-md-6">
+                                    <img src="./images/banner-images/tv.png"
+                                        class="d-block w-75 w-md-25 w-sm-100 m-auto" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item text-center text-sm-start">
+                            <div class="row d-flex align-items-center justify-content-between g-3">
+                                <div class="col-lg-7 col-md-6">
+                                    <h1 class="slider-title">X-Box for your living room</h1>
+                                    <p>This is the best x-box in the world for people who just want to waste time in
+                                        front of fake sports.</p>
+                                    <h1 class="price">$600</h1>
+                                    <button class="buy-now-button">Buy Now <i class="bi bi-arrow-right"></i></button>
+                                </div>
+                                <div class="col-lg-5 col-md-6">
+                                    <img src="./images/banner-images/xbox.png"
+                                        class="d-block w-75 w-md-25 w-sm-100 m-auto" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- categories -->
+        <section class="container px-5">
+            <h1 class="section-title my-3">Categories</h1>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="category watch p-3  d-flex align-items-center justify-content-between">
+                        <h1 class="categories-title">Watch</h1>
+                        <img src="./images/categories/watch.png" width="69px" height="90px" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="category bag p-3  d-flex align-items-center justify-content-between">
+                        <h1 class="categories-title">Bag</h1>
+                        <img src="./images/categories/bag.png" width="69px" height="90px" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="category shoe p-3  d-flex align-items-center justify-content-between">
+                        <h1 class="categories-title">Shoe</h1>
+                        <img src="./images/categories/shoes.png" width="69px" height="90px" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

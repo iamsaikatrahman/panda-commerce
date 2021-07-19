@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#search-input {
+  position: relative;
+  z-index: 1;
+  padding-right: 10px;
+  width: 500px;
+}
+#search-button {
+  position: relative;
+  right: 60px;
+  z-index: 10;
+  border-radius: 50px;
+  color: #bababa;
+}
+#search-button:hover {
+  color: #bababa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #707070;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+/* carousel slider */
+#carousel-slider {
+  background-color: #feeae9;
+}
+.slider-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 84px;
+}
+.price {
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 61px;
+  color: #ff136f;
+}
+.buy-now-button {
+  border: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  border-radius: 6px;
+  padding: 14px 20px;
+}
+/* categories */
+.section-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+.category {
+  border-radius: 10px;
+  height: 120px;
+}
+.watch {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.bag {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.shoe {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+.categories-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #fff;
+}
+/* --------- Media Quries ------------ */
+/* Mobile devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #search-input {
+    margin: 20px 0 10px 0;
+    width: 100%;
+  }
+  #search-button {
+    top: 10px;
+    transform: translate(0, -5px);
+  }
+  .slider-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .price {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+/* Tablet devices (601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  #search-input {
+    margin: 20px 0 10px 0;
+    width: 100%;
+  }
+  #search-button {
+    top: 10px;
+    transform: translate(0, -5px);
+  }
+  .slider-title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .price {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+/* Large devices (769px to 1200px) */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #search-input {
+    /* margin: 20px 0 10px 0; */
+    width: 100%;
+  }
+}
