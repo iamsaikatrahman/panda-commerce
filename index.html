@@ -18,7 +18,7 @@
 <body>
     <!-- header & navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg ">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="">
@@ -55,7 +55,7 @@
             </div>
         </nav>
         <!-- carousel slider -->
-        <section>
+        <section class="carousel-section">
             <div class="container py-5">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -66,7 +66,7 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
-                    <div class=" carousel-inner p-5 rounded-3" id="carousel-slider">
+                    <div class=" carousel-inner p-5 " id="carousel-slider">
                         <div class="carousel-item active text-center text-sm-start">
                             <div class="row d-flex align-items-center justify-content-between g-3">
                                 <div class="col-lg-7 col-md-6">
@@ -130,30 +130,163 @@
     </header>
     <main>
         <!-- categories -->
-        <section class="container px-5">
-            <h1 class="section-title my-3">Categories</h1>
-            <div class="row g-4">
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category watch p-3  d-flex align-items-center justify-content-between">
-                        <h1 class="categories-title">Watch</h1>
-                        <img src="./images/categories/watch.png" width="69px" height="90px" alt="">
+        <section class="categories-section py-5">
+            <div class="container px-5">
+                <h1 class="section-title">Categories</h1>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="category watch p-3  d-flex align-items-center justify-content-between">
+                            <h1 class="categories-title">Watch</h1>
+                            <img src="./images/categories/watch.png" width="69px" height="90px" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="category bag p-3  d-flex align-items-center justify-content-between">
+                            <h1 class="categories-title">Bag</h1>
+                            <img src="./images/categories/bag.png" width="69px" height="90px" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="category shoe p-3  d-flex align-items-center justify-content-between">
+                            <h1 class="categories-title">Shoe</h1>
+                            <img src="./images/categories/shoes.png" width="69px" height="90px" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category bag p-3  d-flex align-items-center justify-content-between">
-                        <h1 class="categories-title">Bag</h1>
-                        <img src="./images/categories/bag.png" width="69px" height="90px" alt="">
+            </div>
+        </section>
+        <!-- shoes -->
+        <section class="container px-5 mb-5">
+            <div class="d-flex  my-3 justify-content-between align-items-center">
+                <h1 class="section-title">Shoes</h1>
+                <p class="see-all">See All</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text card-info">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet
+                                sint.</p>
+                            <p class="card-price">$1289</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="category shoe p-3  d-flex align-items-center justify-content-between">
-                        <h1 class="categories-title">Shoe</h1>
-                        <img src="./images/categories/shoes.png" width="69px" height="90px" alt="">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Pump</h5>
+                            <p class="card-text card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Similique
+                                commodi eveniet voluptatum, qui in cumque.</p>
+                            <p class="card-price">$799</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok All Terrain</h5>
+                            <p class="card-text card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Corrupti,
+                                necessitatibus ab? Veritatis quibusdam corrupti maiores reprehenderit quae tenetur
+                                repellat natus.</p>
+                            <p class="card-price">$699</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- backpack -->
+        <section class="container px-5 mb-5">
+            <div class="d-flex  my-3 justify-content-between align-items-center">
+                <h1 class="section-title">Backpack</h1>
+                <p class="see-all">See All</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 text-center">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text card-info">Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                                do amet
+                                sint.</p>
+                            <p class="card-price">$1289</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Similique
+                                commodi eveniet voluptatum, qui in cumque.</p>
+                            <p class="card-price">$799</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text card-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Corrupti,
+                                necessitatibus ab? Veritatis quibusdam corrupti maiores reprehenderit quae tenetur
+                                repellat natus.</p>
+                            <p class="card-price">$699</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="buy-now-button card-button">Buy Now <i
+                                    class="bi bi-arrow-right"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <!-- footer -->
+    <footer class="footer-section py-5">
+        <div class="container">
+            <div class="footer-content py-5 d-flex justify-content-center align-items-center text-center">
+                <div>
+                    <h3 class="footer-title">LET'S STAY IN TOUCH</h3>
+                    <P class="footer-body">Get updates on sales specials and more</P>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn footer-btn btn-lg" type="button">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

@@ -2,8 +2,11 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: #f4f4f4;
 }
-
+.nav-bg {
+  background: #fff;
+}
 #search-input {
   position: relative;
   z-index: 1;
@@ -28,8 +31,12 @@ body {
   line-height: 24px;
 }
 /* carousel slider */
+.carousel-section {
+  background-color: #fff;
+}
 #carousel-slider {
   background-color: #feeae9;
+  border-radius: 10px;
 }
 .slider-title {
   font-weight: 700;
@@ -54,6 +61,9 @@ body {
   padding: 14px 20px;
 }
 /* categories */
+.categories-section {
+  background: #fff;
+}
 .section-title {
   font-weight: 600;
   font-size: 36px;
@@ -76,6 +86,63 @@ body {
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
+  color: #fff;
+}
+/* shoes card */
+.see-all {
+  color: #ff9d00;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card {
+  border-color: transparent;
+  border-radius: 20px;
+}
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.card-info {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+.card-price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+.card-button {
+  background: #000;
+}
+/* footer */
+.footer-section {
+  background: #fff;
+}
+.footer-content {
+  background: #fff2f1;
+  border-radius: 10px;
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+.footer-body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+.footer-btn {
+  background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
   color: #fff;
 }
 /* --------- Media Quries ------------ */
