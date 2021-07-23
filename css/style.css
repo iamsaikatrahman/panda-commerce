@@ -7,6 +7,17 @@ body {
 .nav-bg {
   background: #fff;
 }
+.nav-search {
+  background: #f1f1f1;
+  border-color: transparent;
+}
+.nav-search::placeholder {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cccccc;
+}
 #search-input {
   position: relative;
   z-index: 1;
@@ -140,6 +151,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #707070;
+}
+.footer-email {
+  border-color: transparent;
+}
+.footer-email::placeholder {
+  color: #cccccc;
 }
 .footer-btn {
   background: linear-gradient(180deg, #ff589b 0%, #ff136f 100%);
